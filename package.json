@@ -2,7 +2,7 @@
   "name": "my-first-extension-rmv",
   "displayName": "my-first-extension-rmv",
   "description": "display a message",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "SingularApps",
   "engines": {
     "vscode": "^1.79.0"
@@ -15,8 +15,15 @@
   "contributes": {
     "commands": [{
       "command": "my-first-extension-rmv.helloWorld",
-      "title": "Hello World"
-    }]
+      "title": "Nunca es tarde"
+    }],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "my-first-extension-rmv.helloWorld"
+        }
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint .",
