@@ -17,7 +17,7 @@
       "command": "my-first-extension.helloWorld",
       "title": "Hello World"
     }]
-  },vsce
+  },
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
