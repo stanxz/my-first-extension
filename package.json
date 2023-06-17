@@ -14,7 +14,7 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "my-first-extension.helloWorld",
+      "command": "my-first-extension-rmv.helloWorld",
       "title": "Hello World"
     }]
   },
